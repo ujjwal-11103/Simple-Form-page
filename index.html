@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    </style>
+    <title>Job Appication Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-background">
+            <h1>Job Application
+                <span class="span">
+                    (WEB)
+                </span>
+            </h1>
+            <form action="">
+                <div class="form-container">
+                    <div class="control">
+                        <label for="First-name">First name <br>
+                            <input type="text" name="First Name" id="First-name" placeholder="Enter your name...">
+                        </label>
+                    </div>
+                    <div class="control">
+                        <label for="Last-name">Last name <br>
+                            <input type="text" name="Last Name" id="Last-name" placeholder="Enter your Surname...">
+                        </label>
+                    </div>
+                    <div class="control">
+                        <label for="email">E-mail <br>
+                            <input type="email" name="E-mail" id="email" placeholder="Enter your E-mail...">
+                        </label>
+                    </div>
+                    <div class="control">
+                        <label for="Job-Role">Job-Role<br>
+                            <select name="Job-Role" id="Job-Role">
+                                <option value="">Select Job-Role</option>
+                                <option value="Front-end">Front-end</option>
+                                <option value="Back-end">Back-end</option>
+                                <option value="UI/UX">UI/UX</option>
+                                <option value="System Design">System Design</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="text-control">
+                        <label for="Address">Address <br>
+                            <textarea name="Address" id="Address" cols="25" rows="2"
+                                placeholder="Enter your address"></textarea>
+                        </label>
+                    </div>
+                    <div class="control">
+                        <label for="city">City <br>
+                            <input type="text" name="City" id="city" placeholder="Enter your City...">
+                        </label>
+                    </div>
+                    <div class="control">
+                        <label for="Pin-Code">Pin-Code <br>
+                            <input type="number" name="Pin-Code" id="Pin-Code" placeholder="Enter your Pin-Code...">
+                        </label>
+                    </div>
+                    <div class="control">
+                        <label for="Date">Date <br>
+                            <input type="date" name="Date" id="Date" value="2023-03-21">
+                        </label>
+                    </div>
+                    <div class="control">
+                        <label for="CV">Upload your CV <br>
+                            <input type="file" name="file" id="CV" accept=".jpg">
+                        </label>
+                    </div>
+                </div>
+                <div class="main-container">
+                    <div class="button-conntainer2">
+                        <button type="reset" class="reset">Reset</button>
+                    </div>
+                    <div class="button-conntainer">
+                        <button type="submit">Apply Now</button>
+                    </div>
+                </div>
+        </div>
+        </form>
+    </div>
+    </div>
+</body>
+
+</html>
